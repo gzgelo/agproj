@@ -1,4 +1,4 @@
-# AquaGuard: Smart Underwater Waste Detection & Collection System Using IoT
+# AquaGuard: Smart Underwater Waste Detection & Collection System Using IoT 
 
 ## Description
 An innovative underwater device cleaning system prototype created for Human-Computer Interaction (HCI) class. Focuses on user-centered design and functionality.
