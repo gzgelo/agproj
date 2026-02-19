@@ -28,7 +28,7 @@ An innovative underwater device cleaning system prototype created for Human-Comp
 ## Screenshots
 ![AquaGuard Screenshot](./screenshot.jpg)
 
-## 🎯 Design Considerations
+## Design Considerations
 - Easy to handle underwater
 - Safe for marine life
 - Efficient cleaning mechanism
