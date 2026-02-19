@@ -4,19 +4,19 @@ Welcome to my GitHub repository! This contains my projects as a BSIT student.
 
 ## Repository Contents
 
-### 1. Personal Portfolio Website
+## 1. My Portfolio Website
+
 A responsive portfolio website showcasing my skills, projects, and contact information.
 
-**Live Demo:** [View Portfolio](https://gzgelo.github.io/agproj/portfolio-website/)
+**Live Demo:** [View My Portfolio](https://gzgelo.github.io/agproj/portfolio-website/)
 
-**Technologies:**
+**Technologies Used:**
 - HTML5, CSS3, JavaScript
 - EmailJS API (contact form)
 - GitHub API (display repositories)
 - Leaflet/OpenStreetMap API (location map)
 
 **[View Portfolio Code](./portfolio-website)**
-
 ---
 
 ### 2. Print to Bee
