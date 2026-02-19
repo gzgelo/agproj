@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Angelo Gozo - Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">My Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#affiliations">Affiliations</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="Profile">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Angelo Gozo</span></h1>
+            <h3 class="typing-text">I'm a <span>BSIT Student</span></h3>
+            <p>A second-year Bachelor of Science in Information Technology student with a strong passion for software development and technology innovation. Dedicated to continuous learning and applying theoretical knowledge to practical projects.</p>
+            <a href="#contact" class="btn">Hire me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="heading">About Me</h2>
+        <div class="heading-underline"></div>
+        
+        <div class="about-container">
+            <div class="about-box">
+                <h3><i class="fa-solid fa-bullseye"></i> Objective</h3>
+                <p>A second-year Bachelor of Science in Information Technology student with a strong passion for software development and technology innovation. Dedicated to continuous learning and applying theoretical knowledge to practical projects, while building a solid foundation in programming, system development, and problem-solving.</p>
+            </div>
+
+            <div class="about-box">
+                <h3><i class="fa-solid fa-user"></i> Personal Information</h3>
+                <div class="info-item">
+                    <i class="fa-solid fa-calendar"></i>
+                    <p><strong>Birthdate:</strong> December 26, 2005</p>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p><strong>Location:</strong> Paracale, Camarines Norte</p>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-heart"></i>
+                    <p><strong>Status:</strong> Single</p>
+                </div>
+                <!-- LinkedIn Link -->
+                <div class="info-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/gzgelo" target="_blank" class="social-link">linkedin.com/in/gzgelo</a></p>
+                </div>
+            </div>
+
+            <div class="about-box language-box">
+                <h3><i class="fa-solid fa-language"></i> Languages</h3>
+                <div class="language-bar">
+                    <p>
+                        <span>Filipino</span>
+                        <span class="lang-level">Fluent</span>
+                    </p>
+                    <div class="bar">
+                        <div class="progress" style="width: 100%;"></div>
+                    </div>
+                </div>
+                <div class="language-bar">
+                    <p>
+                        <span>English</span>
+                        <span class="lang-level">Intermediate</span>
+                    </p>
+                    <div class="bar">
+                        <div class="progress" style="width: 65%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills & Expertise</h2>
+        <div class="heading-underline"></div>
+        <p class="sub-heading">Core competencies developed through education and practical experience</p>
+
+        <div class="skills-container">
+            <div class="skill-box">
+                <i class="fa-solid fa-list-check" style="color: #4facfe;"></i>
+                <h3>Project Management</h3>
+                <p>Organizing and coordinating tasks efficiently</p>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-solid fa-puzzle-piece" style="color: #f093fb;"></i>
+                <h3>Problem Solving</h3>
+                <p>Analytical thinking and troubleshooting</p>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-solid fa-lightbulb" style="color: #feca57;"></i>
+                <h3>Creativity</h3>
+                <p>Innovative approaches to challenges</p>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-solid fa-users" style="color: #38ef7d;"></i>
+                <h3>Leadership</h3>
+                <p>Guiding teams towards success</p>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-solid fa-code" style="color: #a29bfe;"></i>
+                <h3>Coding</h3>
+                <p>Proficient in multiple programming languages</p>
+            </div>
+        </div>
+
+        <h3 class="heading" style="font-size: 3rem; margin-top: 5rem; margin-bottom: 3rem;"><i class="fa-solid fa-code"></i> Programming Languages</h3>
+        <p class="sub-heading">Technical skills and programming proficiency</p>
+
+        <div class="skill-bars">
+            <!-- PHP -->
+            <div class="skill-progress">
+                <h4>
+                    <span>PHP</span>
+                    <span>75%</span>
+                </h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-progress">
+                <h4>
+                    <span>Java</span>
+                    <span>70%</span>
+                </h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-progress">
+                <h4>
+                    <span>HTML</span>
+                    <span>90%</span>
+                </h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-progress">
+                <h4>
+                    <span>CSS</span>
+                    <span>90%</span>
+                </h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (Three projects with screenshot links) -->
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="heading-underline"></div>
+        <p class="sub-heading">A showcase of projects I've helped develop and create</p>
+
+        <div class="projects-container" id="my-projects">
+            <!-- Print to Bee -->
+            <div class="project-box">
+                <div class="project-icon yellow">
+                    <i class="fa-solid fa-print"></i>
+                </div>
+                <h3>Print to Bee</h3>
+                <p>Your Digital Printing Solution – a comprehensive printing system that streamlines print job management, queue handling, and document processing.</p>
+                <div class="project-tags">
+                    <span class="tag">System Development</span>
+                    <span class="tag">Queue Management</span>
+                    <span class="tag">Printing</span>
+                </div>
+                
+                <!-- Screenshot link + Inquire button -->
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin: 1.5rem 0;">
+                    <a href="print-to-bee.png" target="_blank" class="btn-inquire" style="background: transparent; border-color: var(--accent-color); color: var(--accent-color);">
+                        <i class="fa-solid fa-image"></i> View Screenshot
+                    </a>
+                    <button class="btn-inquire" onclick="openInquiry('Print to Bee')">
+                        <i class="fa-solid fa-envelope"></i> Inquire
+                    </button>
+                </div>
+            </div>
+
+            <!-- Dental Clinic System -->
+            <div class="project-box">
+                <div class="project-icon">
+                    <i class="fa-solid fa-tooth"></i>
+                </div>
+                <h3>Dental Clinic System</h3>
+                <p>Dental Clinic Management System with patient records, appointment scheduling, and billing. Simple login/register interface for staff and patients.</p>
+                <div class="project-tags">
+                    <span class="tag">System Development</span>
+                    <span class="tag">Healthcare</span>
+                    <span class="tag">Database</span>
+                </div>
+                
+                <!-- Screenshot link + Inquire button -->
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin: 1.5rem 0;">
+                    <a href="dental-clinic.jpg" target="_blank" class="btn-inquire" style="background: transparent; border-color: var(--accent-color); color: var(--accent-color);">
+                        <i class="fa-solid fa-image"></i> View Screenshot
+                    </a>
+                    <button class="btn-inquire" onclick="openInquiry('Dental Clinic System')">
+                        <i class="fa-solid fa-envelope"></i> Inquire
+                    </button>
+                </div>
+            </div>
+
+            <!-- AquaGuard -->
+            <div class="project-box">
+                <div class="project-icon blue">
+                    <i class="fa-solid fa-water"></i>
+                </div>
+                <h3>AquaGuard</h3>
+                <p>Helped create a prototype for an innovative underwater device cleaning system in HCI class, focusing on user-centered design and functionality.</p>
+                <div class="project-tags">
+                    <span class="tag">HCI</span>
+                    <span class="tag">Prototype</span>
+                    <span class="tag">Innovation</span>
+                </div>
+                
+                <!-- Screenshot link + Inquire button -->
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin: 1.5rem 0;">
+                    <a href="aquaguard.jpg" target="_blank" class="btn-inquire" style="background: transparent; border-color: var(--accent-color); color: var(--accent-color);">
+                        <i class="fa-solid fa-image"></i> View Screenshot
+                    </a>
+                    <button class="btn-inquire" onclick="openInquiry('AquaGuard')">
+                        <i class="fa-solid fa-envelope"></i> Inquire
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- API 1: GitHub Repositories -->
+        <div style="margin-top: 8rem;">
+            <h2 class="heading" style="font-size: 3.5rem;"><i class="fa-brands fa-github"></i> My GitHub Repositories</h2>
+            <div class="heading-underline"></div>
+            <p class="sub-heading">Live projects fetched from GitHub API</p>
+            <div id="github-repos" class="projects-container">
+                <div class="repo-loading">
+                    <i class="fa-solid fa-spinner fa-spin" style="font-size: 3rem; color: var(--accent-color);"></i>
+                    <p>Loading repositories from GitHub...</p>
+                </div>
+            </div>
+        </div>
+
+        <p style="text-align: center; margin-top: 5rem; font-size: 1.8rem; color: var(--text-color);">
+            More projects coming soon as I continue to learn and grow!
+        </p>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="heading-underline"></div>
+        <p class="sub-heading">My academic journey and educational background</p>
+
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <span class="timeline-badge">Current</span>
+                    <div class="timeline-date">
+                        <i class="fa-solid fa-calendar"></i>
+                        2024 - Present
+                    </div>
+                    <h3>Tertiary - College</h3>
+                    <h4>Camarines Norte State College</h4>
+                    <p><i class="fa-solid fa-graduation-cap"></i> Bachelor of Science in Information Technology</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Stall 8, CNSC Commercial Bldg. F. Pimentel Ave, Daet, 4600 Camarines Norte</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <div class="timeline-date">
+                        <i class="fa-solid fa-calendar"></i>
+                        2022 - 2024
+                    </div>
+                    <h3>Secondary - Senior High School</h3>
+                    <h4>Paracale National High School</h4>
+                    <p><i class="fa-solid fa-book"></i> ICT - Information and Communication Technology</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Real St. Bagumbayan, Paracale Camarines Norte</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <div class="timeline-date">
+                        <i class="fa-solid fa-calendar"></i>
+                        2018 - 2022
+                    </div>
+                    <h3>Secondary - Junior High School</h3>
+                    <h4>Paracale National High School</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Real St. Bagumbayan, Paracale, Camarines Norte</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <div class="timeline-date">
+                        <i class="fa-solid fa-calendar"></i>
+                        2012 - 2018
+                    </div>
+                    <h3>Primary - Elementary</h3>
+                    <h4>Pedro V. Moreno Elementary School</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Purok - 3 Malaguit, Paracale, Camarines Norte</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Affiliations Section -->
+    <section class="affiliations" id="affiliations">
+        <h2 class="heading">Affiliations</h2>
+        <div class="heading-underline"></div>
+        <p class="sub-heading">Organizations and clubs I'm actively involved with</p>
+
+        <div class="affiliations-container">
+            <div class="affiliation-box">
+                <div class="affiliation-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <span class="affiliation-badge">Protocol Officer</span>
+                <h3>Youth for Environmental in Schools Organization</h3>
+                <div class="affiliation-date">
+                    <i class="fa-solid fa-calendar"></i>
+                    2023 - 2024
+                </div>
+                <p>Leading environmental initiatives and coordinating school programs focused on sustainability and conservation.</p>
+            </div>
+
+            <div class="affiliation-box">
+                <div class="affiliation-icon code">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <span class="affiliation-badge">Member</span>
+                <h3>CompTech Club</h3>
+                <div class="affiliation-date">
+                    <i class="fa-solid fa-calendar"></i>
+                    2023 - 2024
+                </div>
+                <p>Active participant in technology-focused activities, workshops, and collaborative projects in computer science.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Get In Touch</h2>
+        <div class="heading-underline"></div>
+        <p class="sub-heading">Feel free to reach out for opportunities or just to say hello!</p>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3 style="font-size: 2.5rem; color: #ccd6f6; margin-bottom: 2rem;">Contact Information</h3>
+                
+                <div class="contact-item">
+                    <div class="contact-icon phone">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Phone</h4>
+                        <p>0977-214-4571</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Email</h4>
+                        <p><a href="mailto:gozangelo814@gmail.com" style="color: #ccd6f6; text-decoration: none;">gozangelo814@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon location">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Location</h4>
+                        <p>Paracale, Camarines Norte</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Facebook</h4>
+                        <p>
+                            <a href="https://www.facebook.com/defngelo" target="_blank" class="social-link">
+                                defngelo
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Instagram</h4>
+                        <p>
+                            <a href="https://www.instagram.com/gzgelo" target="_blank" class="social-link">
+                                gzgelo
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- API 3: OpenStreetMap Location -->
+                <div style="margin-top: 3rem;">
+                    <h4 style="font-size: 2rem; color: #ccd6f6; margin-bottom: 1.5rem;"><i class="fa-solid fa-map-location-dot"></i> My Location</h4>
+                    <div id="map" style="height: 250px; border-radius: 1rem; border: 2px solid rgba(100, 255, 218, 0.1);"></div>
+                    <p style="font-size: 1.3rem; color: var(--text-color); margin-top: 1rem;">
+                        <i class="fa-solid fa-circle-info" style="color: var(--accent-color);"></i> 
+                        Powered by OpenStreetMap & Leaflet API
+                    </p>
+                </div>
+            </div>
+
+            <!-- TRANSACTION 1: Contact Form -->
+            <div class="contact-form">
+                <h3 style="font-size: 2.5rem; color: #ccd6f6; margin-bottom: 2rem;">Send Message</h3>
+                <p style="font-size: 1.4rem; color: var(--main-color); margin-bottom: 2rem;">
+                    <i class="fa-solid fa-envelope"></i> Powered by EmailJS API
+                </p>
+                <form id="contact-form">
+                    <div class="input-box">
+                        <input type="text" id="contact-name" placeholder="Your name" required>
+                        <span class="error-msg" id="error-name"></span>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" id="contact-email" placeholder="your.email@example.com" required>
+                        <span class="error-msg" id="error-email"></span>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" id="contact-subject" placeholder="Subject" required>
+                        <span class="error-msg" id="error-subject"></span>
+                    </div>
+                    <div class="input-box">
+                        <textarea id="contact-message" placeholder="Your message..." required></textarea>
+                        <span class="error-msg" id="error-message"></span>
+                    </div>
+                    <button type="submit" class="btn-submit" id="contact-submit">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Angelo Gozo | BSIT 2A | Portfolio</p>
+    </footer>
+
+    <!-- TRANSACTION 2: Project Inquiry Modal -->
+    <div id="inquiry-modal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeInquiry()">&times;</span>
+            <h2><i class="fa-solid fa-envelope"></i> Project Inquiry</h2>
+            <p>Interested in <strong id="inquiry-project-name" style="color: var(--accent-color);"></strong>? Fill out the form below!</p>
+            <form id="inquiry-form">
+                <div class="input-box">
+                    <label>Your Name *</label>
+                    <input type="text" id="inquiry-name" required>
+                    <span class="error-msg" id="error-inquiry-name"></span>
+                </div>
+                <div class="input-box">
+                    <label>Your Email *</label>
+                    <input type="email" id="inquiry-email" required>
+                    <span class="error-msg" id="error-inquiry-email"></span>
+                </div>
+                <div class="input-box">
+                    <label>Inquiry Type *</label>
+                    <select id="inquiry-type" required>
+                        <option value="">-- Select Type --</option>
+                        <option value="collaboration">Collaboration</option>
+                        <option value="demo">Request Demo</option>
+                        <option value="feedback">Give Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <span class="error-msg" id="error-inquiry-type"></span>
+                </div>
+                <div class="input-box">
+                    <label>Message *</label>
+                    <textarea id="inquiry-message" required></textarea>
+                    <span class="error-msg" id="error-inquiry-message"></span>
+                </div>
+                <button type="submit" class="btn-submit" id="inquiry-submit">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    Submit Inquiry
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast"></div>
+
+    <!-- External Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
