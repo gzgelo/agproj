@@ -2,7 +2,7 @@
 
 Welcome to my project repository! This is a collection of my work as a BSIT student.
 
-## 📁 Projects in This Repository
+## Projects in This Repository
 
 ### 1. Print to Bee
 A comprehensive printing system that streamlines print job management, queue handling, and document processing.
@@ -31,9 +31,9 @@ A prototype for an innovative underwater device cleaning system created for HCI 
 - Prototyping Tools
 - HCI Principles
 
-## 🚀 How to Use
+## How to Use
 Each project folder contains its own documentation and setup instructions.
 
-## 📞 Contact
+## Contact
 - GitHub: [@gzgelo](https://github.com/gzgelo)
 - LinkedIn: [Angelo Gozo](https://linkedin.com/in/gzgelo)
